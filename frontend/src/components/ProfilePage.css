@@ -1,0 +1,99 @@
+.profileWrapper {
+  align-items: center;
+  min-height: 200px;
+  position: absolute;
+  left: 220px;
+  top: 230px;
+
+  display: flex;
+  min-width: 400px;
+}
+
+.profileImage {
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 10px solid #cc5500;
+}
+
+.profileName {
+  position: relative;
+  top: 100px;
+  left: 80px;
+  font-size: 30px;
+}
+.leftColumn {
+  width: 50%;
+}
+
+.rightColumn {
+  width: 50%;
+  padding-left: 25px;
+}
+
+.friendDiv {
+  display: flex;
+  margin-left: 180px;
+}
+
+.friendProfileContainer {
+  position: relative;
+}
+
+.userContainer {
+  margin-top: 200px;
+  margin-left: 200px;
+  border-bottom: 5px solid #cc5500;
+}
+
+.friendProfile {
+  margin: 20px;
+  border: 1px solid #cc5500;
+}
+
+.friendName {
+  position: relative;
+  left: 50px;
+  top: -40px;
+  color: white;
+  font-weight: bold;
+}
+
+/* .friendProfileContainer {
+  position: relative;
+  top: 50px;
+} */
+
+/* .card {
+  margin-top: 20px;
+  position: relative;
+ 
+  width: 120px;
+} */
+/* 
+.ribbon {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  z-index: 1;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  text-align: right;
+}
+
+.ribbon span {
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 25px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 115px;
+  display: block;
+  background: #cc5500;
+  color: white;
+  position: absolute;
+  top: 20px;
+  right: -25px;
+} */
